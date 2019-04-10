@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "currency",
+    "name": "currency converter",
     "slug": "currency",
     "privacy": "public",
     "sdkVersion": "32.0.0",
@@ -10,7 +10,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icons8-v-bucks-50.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -24,6 +24,12 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "edu.mason.currency",
+      "versionCode": 1,
+      "permission": [],
+      "config":{} 
     }
   }
 }

@@ -5,7 +5,7 @@ import { Constants } from 'expo';
 export default class App extends Component {
     constructor(props){
         super(props)
-    state = {
+    this.state = {
         bal: 1.00,
         newBal: 0,
         inputValue: 'You can change me!',
